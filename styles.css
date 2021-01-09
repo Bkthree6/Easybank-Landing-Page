@@ -13,6 +13,13 @@ header {
     width: 100%;
     z-index: 2;
 }
+h1 {
+    width: 400px;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 2%;
+    color: hsl(233, 26%, 24%);
+}
 button {
     height: 35px;
     border-radius: 20px;
@@ -69,13 +76,7 @@ header button {
 .section {
     padding: 90px 0; 
 }
-h1 {
-    width: 400px;
-    font-weight: 400;
-    font-size: 48px;
-    margin-bottom: 2%;
-    color: hsl(233, 26%, 24%);
-}
+
 .content-sec-1 p {
     width: 410px;
     font-size: 16px;
@@ -139,10 +140,20 @@ h1 {
 .content-sec-3 {
     background-color: #fafafa;
 }
+.content-sec-3 h2 {
+    color: hsl(233, 26%, 24%);
+    font-size: 30px;
+    font-weight: 400;
+}
 
 /* Fourth content section */
 .content-sec-4 {
     background-color: #2d314e;
+}
+.section-3-articles {
+    display: flex;
+    width: 25%;
+    flex-grow: 4;
 }
 
 /* Footer */
